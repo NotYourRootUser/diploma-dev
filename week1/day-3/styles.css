@@ -1,0 +1,66 @@
+h1 {
+    font-size: 50px;
+    background-color: rgb(153, 124, 237);
+}
+
+/* class selector */
+.button {
+    background-color: yellow;
+}
+
+/* id selector */
+#header {
+    color: rgb(91, 184, 47);
+}
+
+/* descendant selector a */
+#wellwellwell li {
+    color: blue;
+}
+
+/* descendant selector a */
+#wellwellwell b {
+    background-color: blueviolet;
+}
+
+/* child selector */
+li>b {
+    color: purple;
+}
+
+/* gourping selector */
+h2,h3,h4 {
+    background-color: red;
+}
+
+/* pseudo class selector */
+.btn:hover {
+    background-color: blue;
+}
+
+.btn:active{
+    color: white;
+}
+
+.btn:focus{
+    background-color: pink;
+}
+
+/* id beats class */
+.paragraph {
+    color: green;
+}
+/* last one wins of same weight */
+.paragraph {
+    color: aqu;
+}
+/* id wins over class */
+#paragraph {
+    color: red;
+}
+
+/* important weight 10000 */
+/* p tag 1 */
+p {
+    color: greenyellow !important
+}
