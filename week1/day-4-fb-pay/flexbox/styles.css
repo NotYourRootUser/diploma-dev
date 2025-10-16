@@ -1,0 +1,86 @@
+#flex-box {
+    /* display: none */
+    display: flex;
+    background-color: pink;
+    /* 🔽 row is the default value for flex-direction*/
+    /* flex-direction: row;  */
+    /* flex-direction: column; */
+
+    height: 60px;
+
+    /* 🔽 flex-start is the default value for justify-content*/
+    /* justify-content: flex-start;  */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-betsween; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+
+
+    gap: 15px;
+
+    /*🔽 stretch is the default value for align-items */
+    /* flex items will stretch to fill the entire height */
+    /* align-items: stretch; */
+    align-items: center;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+
+    flex-wrap:wrap;
+}
+
+#flex-box-2 {
+    margin-top: 2rem;
+    display: flex;
+    background-color: black;
+    height: 10rem;
+    /* ⬇️ */
+    flex-direction: column;
+
+    /* justify-content: direction is vertical 🔽*/
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* justify-content: stretch; */
+
+    /* align-items: direction is horizontal 🔽*/
+
+    /* align-items: start; */
+    align-items: center;
+    /* align-items: end; */
+    /* align-items: stretch; */
+
+    /* gap: 5px; */
+}
+
+
+
+
+.child-el1 {
+    /* default display value for dev */
+    /* display:block; */
+    background-color: aqua;
+}
+
+.child-el2 {
+    /* display: inline; */
+    background-color: red;
+}
+
+.child-el3 {
+    /* display: none; */
+    background-color: yellowgreen;
+}
+
+.child-el4 {
+    background-color: green;
+}
+
+.child-el5 {
+    background-color: purple;
+}
+ 

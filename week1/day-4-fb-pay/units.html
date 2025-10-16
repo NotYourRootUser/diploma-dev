@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Units</title>
+    <!-- Internal Styling -->
+    <style>
+        #parent {
+            display: flex;
+            background-color: lightblue;
+            width: 550px;
+            height: 500px;
+            justify-content: center;
+            align-items: center;
+
+            /* default root font-size: 16px */
+            font-size: 30px;
+        }
+
+        #child {
+            background-color: pink;
+            /* %: Relative to the value of the Parent element */
+            /* 50% of 500px = 250px */
+            width: 80%;
+            height: 50%;
+            /* em: Relative to the font-size of the Parent element */
+            /* 3x30=90px */
+            /* font-size: 3em; */
+
+            /* rem: Relative to the font-size of the Root element */
+            /* 3x16=48px */
+            font-size: 3rem; 
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div id="child">test</div>
+    </div>
+
+</body>
+
+</html>
+ 
