@@ -4,5 +4,7 @@ Turns out my Security+ recall drills helped me react faster during the quiz - en
 A good reminder that pattern recognition and focus training transfer across domains more than you’d expect.  
 
 ![Week 1 Kahoot Win](assets/screenshots/week1_kahoot_win.png)
+*Jeremy said he thought he’d reel me in at the end - not even close 😄*
+
 
 ---
