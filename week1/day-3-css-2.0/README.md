@@ -1,5 +1,5 @@
 # Class Recap — CSS Selectors & Specificity (Oct 15)
-
+_.CSS Selectors and Specificity order._
 ### 1. Class vs ID Selectors
 - A **class** (`.classname`) is used to **group** multiple elements together so you can style them all at once.  
 - An **ID** (`#idname`) is used for **unique** elements that only appear once on a page.  

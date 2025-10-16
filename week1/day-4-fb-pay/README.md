@@ -1,4 +1,6 @@
 # HTML and CSS Layout Fundamentals
+_Practical layout building using Flexbox and modern semantic structure._
+
 
 ## 1. Linking HTML and CSS
 To connect your HTML file to a CSS file, use the <link> element inside the <head> tag:
