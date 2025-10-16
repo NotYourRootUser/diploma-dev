@@ -13,8 +13,8 @@ main {
 #left {
     background-color: rgb(255, 255, 255);
     width: 50%;
-    font-size: 20px;
-    margin: -40px 100px;
+    font-size: 17px;
+    margin: -20px 100px;
 }
 
 p {
@@ -27,25 +27,35 @@ p {
 }
 /* right section */
 #right {
-    background-color: greenyellow;
+    background-color: rgb(255, 255, 255);
     width: 50%;
     text-align: center;
+}
+
+#image {
+    width: 80%;
+    padding-right:7%;
+}
+
+span {
+    color: rgb(152, 152, 255);
 }
 
 nav>ul {
     display: flex;
     justify-content: right;
    gap: 10px;
-    margin: 80px 100px;
+    margin: 50px 100px;
     background-color: rgb(255, 255, 255);
 }
 
 .nav-link {
-    border: 0px solid rgb(184, 225, 236);
+    border: 0px solid rgb(1, 12, 16);
     list-style: none;
-    padding: 8px 15px;
-    margin: 0px;
-    margin-left: 4px;
+    padding: 8px 14px;
+    margin: 0px 0px;
+    margin-left: 13.2px
+    
 }
 
 .btn { 
@@ -57,6 +67,7 @@ nav>ul {
 }
 
 .chat-btn {
+    /* display: block; */
     width: 200px;
     padding: 14px 25px;
     margin: 20px 0px;
@@ -64,6 +75,17 @@ nav>ul {
     font-family: "Tahoma";
 
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
 /* h1 {
     border:0.5px dashed black;
     padding: 20px;
