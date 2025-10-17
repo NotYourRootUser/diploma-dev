@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- basic form -->
+     <form action="malito:justin.uaisele@gmail.com" method="post" autocomplete="on">
+         
+        <!-- name -->
+        <label for="name" >Your Name:</label>
+        <input type="text" name="name" id="name" required placeholder="Type your name here..."><br>
+        
+        <!-- email -->
+        <label for="email">Your Email:</label>
+        <input type="email" name="email" id="email" required placeholder="Type your email here..."><br>
+        
+        <!-- subject -->
+        <label>Subject:</label><br>
+        <input type="radio" id="sales" name="sales"><label for="">Sales</label><br>
+         <input type="radio" id="support" name="support"><label for="">Support</label><br>
+         <input type="radio" id="other" name="other"><label for="">Other</label><br>
+        
+         <!-- message -->
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30" placeholder="Type your message here..." required></textarea><br
+        <button type="submit"></button>
+        <input type="submit" value="Submit"><br>
+
+        </form>
+
+        <!-- input types -->
+        <!-- <input type="radio"> <label for="">sales</label>
+        <input type="checkbox"><label for="">Approved</label>
+        <input type="button" value="click me"></br>
+        <label for="">Password:</label> <input type="password"></br>
+        <label for="">Number:</label> <input type="number"> -->
+</body>
+</html>

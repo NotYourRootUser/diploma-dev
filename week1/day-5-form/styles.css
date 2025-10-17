@@ -1,0 +1,32 @@
+input {
+    width: 40%;
+}
+
+label {
+    font-family: "Tahoma" sans-serif;
+}   
+
+[type=text], [type=email] {
+  padding: 2px 2px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid purple;
+} 
+
+[type=radio] {
+    width: 20px;
+}
+
+[type=radio] + label {
+    color: purple;
+}
+
+textarea {
+    border: 2px solid purple;
+}
+
+[type=submit] {
+    background-color: purple;
+    color: aliceblue;
+    width:10%;
+}
