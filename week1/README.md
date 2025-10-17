@@ -21,7 +21,4 @@ The Mission Ready environment makes it easier to keep learning.
 Tutors and classmates are always available, which makes the sessions more productive and enjoyable.
 
 ## Next Steps
-- Start responsive layout practice using Flexbox and Grid  
-- Add hover effects and small animations  
-- Organize screenshots and notes in the assets folder  
-- Keep refining structure and styling before moving into JavaScript
+I think next week we plan on going over CSS animations, then creating a new App with Responsive Web Design, Intro for git. and after Mission 1, head to JavaScript 🙌🏿
