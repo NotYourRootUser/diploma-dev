@@ -9,6 +9,6 @@ Had a fun Kahoot session too, ended up taking first place 😅. Turns out all th
 
 Overall, a solid start. Flexbox finally clicked, my Git commits are consistent, and I’m starting to enjoy front-end more than I expected.
 
-![Week 1 Kahoot Win](assets/screenshots/week1_kahoot_win.png)
+![Week 1 Kahoot Win](assets/screenshot/week1_kahoot_win.png)
 *Cheeky little win on the class kahoot* 😆
 
