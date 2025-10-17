@@ -1,4 +1,4 @@
-# Class Recap — CSS Selectors & Specificity Notes
+# CSS Selectors & Specificity Notes
 
 ### 1. Class vs ID Selectors
 - A **class** (`.classname`) is used to **group** multiple elements together so you can style them all at once.  
