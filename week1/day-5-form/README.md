@@ -1,5 +1,5 @@
 
-# 🧩 HTML Forms — Complete Notes
+# HTML Forms — Complete Notes
 
 ## 1. What an HTML Form Is
 An **HTML form** is used to collect data from users — such as names, emails, or messages — and send it to a server for processing.
@@ -230,7 +230,7 @@ textarea {
 
 ---
 
-✅ **In summary:**
+ **In short:**
 - Forms collect user input and send it to servers.  
 - Use labels to describe inputs and connect them with `for` + `id`.  
 - Attribute selectors (`[type=...]`) and sibling combinators (`+`) help style specific inputs.  
