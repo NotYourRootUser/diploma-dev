@@ -1,5 +1,5 @@
 
-# HTML Forms — Complete Notes
+# HTML Forms Notes
 
 ## 1. What an HTML Form Is
 An **HTML form** is used to collect data from users — such as names, emails, or messages — and send it to a server for processing.
