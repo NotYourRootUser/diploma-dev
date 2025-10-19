@@ -1,4 +1,4 @@
-Mission 1 — CSS Checklist
+Mission 1 CSS Checklist
 
 Flexbox
 - Used for layout (display: flex;)

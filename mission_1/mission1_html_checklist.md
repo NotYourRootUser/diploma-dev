@@ -1,6 +1,6 @@
-# Mission 1 Checklist
+# Mission 1 HTML Checklist
 
-## HTML Requirements
+## Requirements
 - [ ] `<head>` tag with:
   - [ ] `<title>`
   - [ ] `<meta charset="UTF-8">`

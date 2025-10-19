@@ -1,4 +1,4 @@
-Mission 1 — Presentation Checklist
+Mission 1 Presentation Checklist
 
 Preparation
 - Files uploaded to Teams or GitHub folder (mission_1)
@@ -20,7 +20,7 @@ Talking Points
 - How you tested responsiveness
 - What you'd improve next time
 
-Extra Tips
+tips
 - Keep code and site both open before class
 - Have a backup screenshot if internet is slow
-- Smile, relax — treat it like showing a cool project, not a graded exam
+- Smile, relax treat it like showing a cool project, not a graded exam
