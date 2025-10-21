@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>justin m1</title>
-</head>
-<body>
-    Test 1 2 3
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Human Protocol</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>> GET /justin</h1>
+      <p>Response: 200 OK</p>
+    </header>
+
+    <main>
+      <div class="api-block">
+        <pre>
+{
+  "role": "Cloud & AI Security Architect in training",
+  "current_phase": "Foundations → Architecture",
+  "uptime": "06:15 → 19:30 NZST",
+  "repositories": ["cloud-ledger", "diploma-dev"],
+  "status": "Building proof-of-work systems // de-hydrated // learning"
+}
+      </pre
+        >
+      </div>
+
+      <div class="divider"></div>
+
+      <section id="contact">
+        <h2>> POST /contact</h2>
+        <form
+          action="mailto:justin.uaisele@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="4" cols="30"></textarea
+          ><br /><br />
+
+          <input type="submit" value="Send" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Human Protocol // All systems nominal</p>
+    </footer>
+  </body>
 </html>
