@@ -19,7 +19,7 @@ It felt like a big step up from HTML and CSS, but once the syntax started to mak
 ### Reflection
 This week felt smoother since the workflow in VS Code and GitHub started feeling natural.  
 Writing JavaScript and testing small pieces of code helped everything click faster.  
-Winning Kahoot again was a fun bonus — two weeks in a row now.  
+Winning Kahoot again was a fun bonus, two weeks in a row now.  
 By the end of the week, I was starting to think like a programmer, not just someone following tutorials.
 
 <p align="center">
