@@ -12,3 +12,12 @@ Overall, a solid start. Flexbox finally clicked, my Git commits are consistent, 
 ![Week 1 Kahoot Win](assets/screenshot/week1_kahoot_win.png)
 *Cheeky little win on the class kahoot* 😆
 
+## Week 2 Reflection
+
+Settled deeper into JavaScript this week — working through data types, strings, and basic logic. Seeing how small syntax differences shape behavior has been interesting, especially when comparing coercion and equality in JS vs Python.
+
+The coding labs helped build muscle memory for writing and testing quickly. It’s also been satisfying getting smoother in GitHub, tidying folders, and committing clean updates each day.
+
+Won another class Kahoot — that makes two weeks in a row. The quick-fire recall feels like live debugging practice, where attention to detail and timing both matter.
+
+Overall, week 2 felt more structured. My workflow in VS Code and DevTools is faster, I understand how strings and variables interact, and I’m starting to think more like a programmer than just a learner.
