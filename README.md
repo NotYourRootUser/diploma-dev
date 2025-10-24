@@ -46,7 +46,7 @@ So far I’ve been focusing on:
 **Mission 1 – Ransomware Simulation Page**  
 A creative HTML and CSS project built with a cybersecurity theme.  
 I used animations, red and black colors, and layout effects to make it look like a fake ransomware warning.  
-[View the live site](https://lolipop316.github.io/diploma-dev/week2/day4-presentation-mission1/index.html)
+[View the live site](https://lolipop316.github.io/ransomware-simulation-ui/)
 
 <p align="center">
   <img src="./week2/ransomware-site.png" width="420" alt="Ransomware simulation project screenshot">
