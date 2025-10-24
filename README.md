@@ -1,4 +1,4 @@
-# Mission Ready Diploma Portfolio
+# Mission Ready Diploma Repo
 
 This repository documents my learning journey through the Mission Ready Diploma in Digital Technology Development and Design.  
 Each week builds on the last, combining hands-on projects, coding practice, and personal reflections to show my progress as a developer.
