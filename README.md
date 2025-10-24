@@ -27,13 +27,13 @@ So far I’ve been focusing on:
 
 ## Weekly Progress
 
-### [Week 1 – HTML and CSS Basics](./week1/README.md)
+### [Week 1 - HTML and CSS Basics](./week1/README.md)
 - Learned how HTML gives structure and CSS controls style  
 - Practiced Flexbox and built the Facebook Pay mock site  
 - Completed layout challenges and improved my GitHub workflow  
 - Ended the week with a Kahoot win  
 
-### [Week 2 – JavaScript and Logic](./week2/README.md)
+### [Week 2 - JavaScript and Logic](./week2/README.md)
 - Learned about variables, strings, numbers, and booleans  
 - Compared JavaScript logic to Python and tested code in the console  
 - Presented my Mission 1 ransomware-themed site to the class  
@@ -43,7 +43,7 @@ So far I’ve been focusing on:
 
 ## Project Highlights
 
-**Mission 1 – Ransomware Simulation Page**  
+**Mission 1 - Ransomware Simulation Page**  
 A creative HTML and CSS project built with a cybersecurity theme.  
 I used animations, red and black colors, and layout effects to make it look like a fake ransomware warning.  
 [View the live site](https://lolipop316.github.io/ransomware-simulation-ui/)
@@ -52,7 +52,7 @@ I used animations, red and black colors, and layout effects to make it look like
   <img src="./week2/ransomware-site.png" width="420" alt="Ransomware simulation project screenshot">
 </p>
 
-**Kahoot Wins – Week 1 and Week 2**  
+**Kahoot Wins - Week 1 and Week 2**  
 <p align="center">
   <img src="./week1/kahoot-week1.png" width="320" alt="Week 1 Kahoot win">
   <img src="./week2/kahoot-week2.png" width="320" alt="Week 2 Kahoot win">
