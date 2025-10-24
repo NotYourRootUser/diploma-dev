@@ -1,47 +1,85 @@
-# Week 2 Overview
+# Mission Ready Diploma Portfolio
 
-This week focused on getting deeper into JavaScript.  
-We covered data types, strings, numbers, booleans, and how logic works behind the scenes.  
-It felt like a big step up from HTML and CSS, but once the syntax started to make sense, it got more fun to experiment in the console.
-
----
-
-### Folder Breakdown
-- **day1-rwd:** Responsive Web Design review and setup  
-- **day2-git:** Git refresher, commits, and pushing to GitHub  
-- **day3-js-intro:** JavaScript basics and writing first scripts  
-- **day4-presentation-mission1:** Mission 1 project presentation day  
-- **day5-number-and-boolean:** Learning about numbers, booleans, and logic  
-- **day5-string:** Working with strings, concatenation, and template literals  
+This repository documents my learning journey through the Mission Ready Diploma in Digital Technology Development and Design.  
+Each week builds on the last, combining hands-on projects, coding practice, and personal reflections to show my progress as a developer.
 
 ---
 
-### Reflection
-This week felt smoother since the workflow in VS Code and GitHub started feeling natural.  
-Writing JavaScript and testing small pieces of code helped everything click faster.  
-Winning Kahoot again was a fun bonus — two weeks in a row now.  
-By the end of the week, I was starting to think like a programmer, not just someone following tutorials.
+## About the Diploma
+
+The Mission Ready Diploma focuses on full stack web development.  
+It covers HTML, CSS, JavaScript, Git, and teamwork projects that prepare students for technical roles in the industry.  
+The learning is project-based, with weekly challenges and presentations to apply new skills in real time.
+
+---
+
+## My Focus
+
+I joined the program to strengthen my front-end development skills and connect them to my long-term goal of working in cloud and AI security.  
+So far, I’ve been building a base in:
+- Writing clean HTML and CSS  
+- Using Git and GitHub to manage code  
+- Learning JavaScript for logic and interactivity  
+- Presenting and explaining technical work clearly  
+
+---
+
+## Weekly Progress
+
+### [Week 1 – HTML and CSS Foundations](./week1/README.md)
+- Learned how HTML gives structure and CSS controls presentation  
+- Practiced Flexbox for layout and responsive design  
+- Created the Facebook Pay mock site and personal project layouts  
+- Won the class Kahoot and finished the week feeling more confident with web basics  
+
+### [Week 2 – JavaScript Fundamentals](./week2/README.md)
+- Learned about data types, strings, numbers, and booleans  
+- Practiced logical thinking and tested JavaScript code in the console  
+- Presented the Mission 1 ransomware-style page built with HTML and CSS  
+- Won another Kahoot and improved my workflow in VS Code and GitHub  
+
+---
+
+## Project Highlights
+
+**Mission 1 – Ransomware Simulation Page**  
+A creative HTML and CSS project designed with a cybersecurity theme.  
+Used animation, color, and layout to create a tense "system error" look and feel.  
+[View Project](https://github.com/lolipop316/ransomware-simulation-ui)
 
 <p align="center">
-  <img src="./kahoot-week2.png" width="380" alt="Week 2 Kahoot Win">
+  <img src="./week2/ransomware-site.png" width="420" alt="Ransomware simulation project screenshot">
+</p>
+
+**Kahoot Wins – Week 1 and Week 2**  
+<p align="center">
+  <img src="./week1/kahoot-week1.png" width="320" alt="Week 1 Kahoot win">
+  <img src="./week2/kahoot-week2.png" width="320" alt="Week 2 Kahoot win">
 </p>
 
 ---
 
-### Presentation
-The Mission 1 presentation went well.  
-I built a fake ransomware-style page using HTML and CSS, which got a few laughs and some positive feedback.  
-It was nerve-wracking at first, but once I started explaining the design choices, it became easier to talk.  
-It felt good to mix creativity with cybersecurity and stand out from the usual front-end projects.
+## Next Steps
 
-<p align="center">
-  <a href="https://lolipop316.github.io/diploma-dev/week2/day4-presentation-mission1/index.html" target="_blank">
-    <img src="./ransomware-site.png" width="420" alt="Mission 1 Ransomware Project">
-  </a>
-</p>
+- Learn functions, loops, and DOM interaction in JavaScript  
+- Improve responsive layouts with media queries  
+- Start building interactive front-end projects  
+- Keep documenting progress each week in GitHub  
 
 ---
 
-### Next Steps
-Next week’s focus will be diving deeper into JavaScript logic, conditionals, and DOM interaction.  
-I also plan to keep improving the ransomware project by adding small animations and a timer.
+## Tools Used
+
+- Fedora Linux (i3)
+- Visual Studio Code  
+- Git and GitHub  
+- Firefox Developer Edition  
+- Draw.io for diagrams  
+
+---
+
+## Reflection Summary
+
+The first two weeks have built a strong foundation in both coding and workflow habits.  
+I’ve learned to plan, test, and reflect on my work while staying consistent with commits and documentation.  
+Each week is building more confidence to explain my projects and think like a developer.
