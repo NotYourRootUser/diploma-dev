@@ -1,56 +1,47 @@
-# Diploma in Digital Technology Development Mission Ready HQ
+# Week 2 Overview
 
-This repo tracks my weekly work and learning progress for the Diploma in Digital Tech Development and Design.  
-Each week I’ve been building skills through coding labs, group projects, and reflection work focused on real-world web development.
-
-## About
-
-The program covers full stack fundamentals HTML, CSS, JavaScript, Git, and cloud basics.  
-It’s helping me connect software development with my long-term goal of becoming a Cloud and AI Security Architect.  
-I’m starting to see how front-end thinking, structure, and clean code link directly to secure design later on.
-
-### Goals
-- Build strong front-end foundations  
-- Practice clean, readable code  
-- Use Git and GitHub for daily commits  
-- Reflect weekly to track growth  
-- Stay consistent and curious while learning
+This week focused on getting deeper into JavaScript.  
+We covered data types, strings, numbers, booleans, and how logic works behind the scenes.  
+It felt like a big step up from HTML and CSS, but once the syntax started to make sense, it got more fun to experiment in the console.
 
 ---
 
-## Weekly Reflections
-
-- [Week 1 Reflection](./week1/reflection.md)  
-  Learned HTML and CSS basics and started using Git to manage my work. It was a big shift from security studies, but I’m enjoying how structure and logic connect. Ended the week with a Kahoot win that showed recall and focus under pressure.
-
-- [Week 2 Reflection](./week2/reflection.md)  
-  Focused on JavaScript fundamentals — data types, strings, and logic. Improved my workflow in VS Code and GitHub, and built confidence writing cleaner code. Won another Kahoot, which made me realize how much faster my recall and pattern spotting have become.
-
----
-
-## Skills Gained So Far
-- Writing clean HTML and CSS layouts  
-- Understanding JavaScript variables and data types  
-- Using comparison, coercion, and logical operators  
-- Managing projects with Git and GitHub  
-- Debugging with VS Code and DevTools  
-- Documenting reflections and weekly progress
+### Folder Breakdown
+- **day1-rwd:** Responsive Web Design review and setup  
+- **day2-git:** Git refresher, commits, and pushing to GitHub  
+- **day3-js-intro:** JavaScript basics and writing first scripts  
+- **day4-presentation-mission1:** Mission 1 project presentation day  
+- **day5-number-and-boolean:** Learning about numbers, booleans, and logic  
+- **day5-string:** Working with strings, concatenation, and template literals  
 
 ---
 
-## Tools and Setup
-- Fedora Linux with i3 and GNOME  
-- Visual Studio Code  
-- Git and GitHub  
-- Firefox Developer Edition  
-- Draw.io for diagrams and wireframes
+### Reflection
+This week felt smoother since the workflow in VS Code and GitHub started feeling natural.  
+Writing JavaScript and testing small pieces of code helped everything click faster.  
+Winning Kahoot again was a fun bonus — two weeks in a row now.  
+By the end of the week, I was starting to think like a programmer, not just someone following tutorials.
+
+<p align="center">
+  <img src="./kahoot-week2.png" width="380" alt="Week 2 Kahoot Win">
+</p>
 
 ---
 
-## Next Steps
-- Learn JavaScript functions and loops  
-- Start DOM manipulation and interactive features  
-- Continue building consistent Git commits  
-- Keep improving documentation and reflections  
+### Presentation
+The Mission 1 presentation went well.  
+I built a fake ransomware-style page using HTML and CSS, which got a few laughs and some positive feedback.  
+It was nerve-wracking at first, but once I started explaining the design choices, it became easier to talk.  
+It felt good to mix creativity with cybersecurity and stand out from the usual front-end projects.
 
+<p align="center">
+  <a href="https://lolipop316.github.io/diploma-dev/week2/day4-presentation-mission1/index.html" target="_blank">
+    <img src="./ransomware-site.png" width="420" alt="Mission 1 Ransomware Project">
+  </a>
+</p>
 
+---
+
+### Next Steps
+Next week’s focus will be diving deeper into JavaScript logic, conditionals, and DOM interaction.  
+I also plan to keep improving the ransomware project by adding small animations and a timer.
