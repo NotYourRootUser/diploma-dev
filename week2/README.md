@@ -28,10 +28,6 @@ The Kahoot sessions made learning more fun and helped me test how much I actuall
 
 Overall, week 2 felt smoother and more structured. I can move through VS Code and DevTools faster and I’m starting to think like a programmer instead of just following tutorials.
 
-<p align="center">
-  <img src="./kahoot-week2.png" width="380" alt="Week 2 Kahoot Win">
-</p>
-
 ---
 
 ### Presentation
