@@ -1,4 +1,4 @@
-# JavaScript Notes (Merged Update)
+# JavaScript Notes 
 
 ## Running JavaScript in a Browser
 - `<script>` tag embeds JavaScript in HTML.
