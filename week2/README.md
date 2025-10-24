@@ -1,12 +1,14 @@
+# Week 2 – JavaScript Fundamentals
 
-## Week 2 Reflection
+This week focused on deepening understanding of JavaScript — covering variables, data types, strings, numbers, and booleans.  
+We also had presentation day, where everyone shared their progress and reflected on learning so far.
 
-This week I went deeper into JavaScript, working through data types, strings, and basic logic. It’s interesting seeing how small syntax changes can affect behavior, especially when comparing coercion and equality in JavaScript and Python.
+### Folder Overview
+- **day1-rwd:** responsive web design recap and project setup  
+- **day2-git:** Git workflow and version control practice  
+- **day3-js-intro:** introduction to JavaScript syntax, console, and variables  
+- **day5-number-string-boolean:** working with numbers, strings, type coercion, and boolean logic  
+- **reflection.md:** personal reflection on week 2 learning and milestones  
 
-The coding labs helped me build muscle memory for writing and testing code faster. I’m also getting more comfortable using GitHub, organizing folders, and keeping my commits clear and consistent.
+For a full summary of the week, read the [Week 2 Reflection](./reflection.md).
 
-I won another class Kahoot which makes two weeks in a row. The quick-fire recall feels a lot like live debugging practice where focus and timing really matter.
-
-Overall, week 2 felt more structured. My workflow in VS Code and DevTools is smoother, I understand how strings and variables connect, and I’m starting to think more like a programmer instead of just a learner.
-
-![Week 2 Kahoot Win](assets/screenshot/week2_kahoot_win.png)
