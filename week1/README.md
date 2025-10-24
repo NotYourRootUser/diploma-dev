@@ -1,24 +1,38 @@
 # Week 1 Overview
 
-First week of the Mission Ready Diploma focused on HTML and CSS basics.  
-The goal was to understand how structure and style work together before moving into JavaScript and front-end development.
+The first week of the Mission Ready Diploma focused on HTML and CSS basics.  
+The main goal was to understand how structure and style work together before moving into JavaScript and front-end development.  
+It was a big shift at first, but seeing the results live in the browser made it rewarding.
 
-## Folder Breakdown
-- day-1-intro: first HTML tags, headings, paragraphs, and links  
-- day-2-html-css: linking CSS files, color, fonts, and text styling  
-- day-3-css-2.0: selectors, specificity, pseudo-classes, and class vs id practice  
-- day-4-5-fb-pay: building the Facebook Pay mock site using Flexbox and semantic HTML  
-- day-5-form: creating form inputs, labels, textarea, and submit button  
-- day-5-workshop: recap and group practice
+---
 
-## Reflection
-This week helped me understand the fundamentals of HTML and CSS.  
-I learned how HTML provides structure and CSS defines presentation.  
-At first it felt confusing, but by the end of the week Flexbox made more sense.  
-Seeing progress in the browser and GitHub commits every day helped the concepts stick.  
+### Folder Breakdown
+- **day-1-intro:** First HTML tags, headings, paragraphs, and links  
+- **day-2-html-css:** Linking CSS files, color, fonts, and text styling  
+- **day-3-css-2.0:** Selectors, specificity, pseudo-classes, and class vs ID practice  
+- **day-4-5-fb-pay:** Building the Facebook Pay mock site using Flexbox and semantic HTML  
+- **day-5-form:** Creating form inputs, labels, textarea, and submit button  
+- **day-5-workshop:** Recap and group practice session  
 
-The Mission Ready environment makes it easier to keep learning.  
-Tutors and classmates are always available, which makes the sessions more productive and enjoyable.
+---
 
-## Next Steps
-I think next week we plan on going over CSS animations, then creating a new App with Responsive Web Design, Intro for git. and after Mission 1, head to JavaScript 🙌🏿
+### Reflection
+This week helped me build a strong foundation in front-end development.  
+Learning how HTML gives structure while CSS controls presentation made everything click.  
+At first, Flexbox felt confusing, but by the end of the week it made sense and became one of my favorite layout tools.  
+Seeing daily progress and pushing updates to GitHub made it easier to stay consistent.
+
+<p align="center">
+  <img src="./kahoot-week1.png" width="380" alt="Week 1 Kahoot Win">
+</p>
+
+Winning the first class Kahoot was a fun way to end the week good mix of focus and friendly competition.  
+
+The Mission Ready environment made learning easier and more enjoyable.  
+The tutors and classmates were supportive, which helped me stay engaged and motivated.  
+
+---
+
+### Next Steps
+Next week’s plan, to explore CSS animations, improve responsive design skills, and start using Git for version control.  
+After that, the focus shifts toward JavaScript.
