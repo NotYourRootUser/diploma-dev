@@ -40,11 +40,8 @@ I built a fake ransomware-style page using HTML and CSS, which got a few laughs 
 It was nerve-wracking at first, but once I started explaining the design choices, it became easier to talk.  
 It felt good to mix creativity with cybersecurity and stand out from the usual front-end projects.
 
-<p align="center">
-  <a href="https://lolipop316.github.io/diploma-dev/week2/day4-presentation-mission1/index.html" target="_blank">
-    <img src="./ransomware-site.png" width="420" alt="Mission 1 Ransomware Project">
-  </a>
-</p>
+Click [HERE](https://lolipop316.github.io/ransomware-simulation-ui/) for free dabloons 😍
+
 
 ---
 
