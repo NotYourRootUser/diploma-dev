@@ -32,7 +32,7 @@ Overall, week 2 felt smoother and more structured. I can move through VS Code an
 
 ### Presentation
 The Mission 1 presentation went well.  
-I built a fake ransomware-style page using HTML and CSS, which got a few laughs and some positive feedback.  
+I built a fake ransomware-style page using HTML and CSS, which im pretty sure scared half the class but got some positive feedback.  
 It was nerve-wracking at first, but once I started explaining the design choices, it became easier to talk.  
 It felt good to mix creativity with cybersecurity and stand out from the usual front-end projects.
 
