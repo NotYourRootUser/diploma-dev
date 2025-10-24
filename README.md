@@ -1,11 +1,11 @@
-# Diploma in Digital Technology Development – Mission Ready HQ
+# Diploma in Digital Technology Development Mission Ready HQ
 
 This repo tracks my weekly work and learning progress for the Diploma in Digital Tech Development and Design.  
 Each week I’ve been building skills through coding labs, group projects, and reflection work focused on real-world web development.
 
 ## About
 
-The program covers full stack fundamentals — HTML, CSS, JavaScript, Git, and cloud basics.  
+The program covers full stack fundamentals HTML, CSS, JavaScript, Git, and cloud basics.  
 It’s helping me connect software development with my long-term goal of becoming a Cloud and AI Security Architect.  
 I’m starting to see how front-end thinking, structure, and clean code link directly to secure design later on.
 
@@ -53,6 +53,4 @@ I’m starting to see how front-end thinking, structure, and clean code link dir
 - Continue building consistent Git commits  
 - Keep improving documentation and reflections  
 
----
 
-*Learning one week at a time and building skills that last.*
