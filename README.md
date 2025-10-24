@@ -1,25 +1,58 @@
-### Week 1 Reflection
-Week 1 Reflection
+# Diploma in Digital Technology Development – Mission Ready HQ
 
-Wrapped up the first week of the Diploma, starting from pure HTML/CSS structure and getting used to the front-end mindset.
+This repo tracks my weekly work and learning progress for the Diploma in Digital Tech Development and Design.  
+Each week I’ve been building skills through coding labs, group projects, and reflection work focused on real-world web development.
 
-It’s been a big shift from my usual Security+ focus, but it’s cool seeing how logic and structure carry over between fields. Even basic things like nesting, flow, and specificity feel a bit like managing network layers, just visual instead of packets.
+## About
 
-Had a fun Kahoot session too, ended up taking first place 😅. Turns out all those Security+ recall drills actually helped with reaction speed and pattern recognition.
+The program covers full stack fundamentals — HTML, CSS, JavaScript, Git, and cloud basics.  
+It’s helping me connect software development with my long-term goal of becoming a Cloud and AI Security Architect.  
+I’m starting to see how front-end thinking, structure, and clean code link directly to secure design later on.
 
-Overall, a solid start. Flexbox finally clicked, my Git commits are consistent, and I’m starting to enjoy front-end more than I expected.
+### Goals
+- Build strong front-end foundations  
+- Practice clean, readable code  
+- Use Git and GitHub for daily commits  
+- Reflect weekly to track growth  
+- Stay consistent and curious while learning
 
-![Week 1 Kahoot Win](assets/screenshot/week1_kahoot_win.png)
-*Cheeky little win on the class kahoot* 😆
+---
 
-## Week 2 Reflection
+## Weekly Reflections
 
-This week I went deeper into JavaScript, working through data types, strings, and basic logic. It’s interesting seeing how small syntax changes can affect behavior, especially when comparing coercion and equality in JavaScript and Python.
+- [Week 1 Reflection](./week1/reflection.md)  
+  Learned HTML and CSS basics and started using Git to manage my work. It was a big shift from security studies, but I’m enjoying how structure and logic connect. Ended the week with a Kahoot win that showed recall and focus under pressure.
 
-The coding labs helped me build muscle memory for writing and testing code faster. I’m also getting more comfortable using GitHub, organizing folders, and keeping my commits clear and consistent.
+- [Week 2 Reflection](./week2/reflection.md)  
+  Focused on JavaScript fundamentals — data types, strings, and logic. Improved my workflow in VS Code and GitHub, and built confidence writing cleaner code. Won another Kahoot, which made me realize how much faster my recall and pattern spotting have become.
 
-I won another class Kahoot which makes two weeks in a row. The quick-fire recall feels a lot like live debugging practice where focus and timing really matter.
+---
 
-Overall, week 2 felt more structured. My workflow in VS Code and DevTools is smoother, I understand how strings and variables connect, and I’m starting to think more like a programmer instead of just a learner.
+## Skills Gained So Far
+- Writing clean HTML and CSS layouts  
+- Understanding JavaScript variables and data types  
+- Using comparison, coercion, and logical operators  
+- Managing projects with Git and GitHub  
+- Debugging with VS Code and DevTools  
+- Documenting reflections and weekly progress
 
-![Week 2 Kahoot Win](assets/screenshot/week2_kahoot_win.png)
+---
+
+## Tools and Setup
+- Fedora Linux with i3 and GNOME  
+- Visual Studio Code  
+- Git and GitHub  
+- Firefox Developer Edition  
+- Draw.io for diagrams and wireframes
+
+---
+
+## Next Steps
+- Learn JavaScript functions and loops  
+- Start DOM manipulation and interactive features  
+- Continue building consistent Git commits  
+- Keep improving documentation and reflections  
+
+---
+
+*Learning one week at a time and building skills that last.*
