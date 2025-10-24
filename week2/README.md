@@ -7,7 +7,7 @@ We also had presentation day, where everyone shared their progress and reflected
 - **day1-rwd:** responsive web design recap and project setup  
 - **day2-git:** Git workflow and version control practice  
 - **day3-js-intro:** introduction to JavaScript syntax, console, and variables
-- **day4** Presentation day 
+- **day4:** Presentation day 
 - **day5-number-string-boolean:** working with numbers, strings, type coercion, and boolean logic  
 - **reflection.md:** personal reflection on week 2 learning and milestones  
 
