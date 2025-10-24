@@ -1,4 +1,4 @@
-# Mission Ready Diploma Portfolio
+# Mission Ready Diploma Repo
 
 This repo tracks my work for the Mission Ready Diploma in Digital Tech Development and Design.  
 Each week has its own folder with projects, notes, and a short reflection on what I learned.  
