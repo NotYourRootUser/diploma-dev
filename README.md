@@ -1,51 +1,52 @@
-# Mission Ready Diploma Repo
+# Mission Ready Diploma Portfolio
 
-This repository documents my learning journey through the Mission Ready Diploma in Digital Technology Development and Design.  
-Each week builds on the last, combining hands-on projects, coding practice, and personal reflections to show my progress as a developer.
+This repo tracks my work for the Mission Ready Diploma in Digital Tech Development and Design.  
+Each week has its own folder with projects, notes, and a short reflection on what I learned.  
+It’s a mix of coding practice, experiments, and small wins along the way.
 
 ---
 
 ## About the Diploma
 
-The Mission Ready Diploma focuses on full stack web development.  
-It covers HTML, CSS, JavaScript, Git, and teamwork projects that prepare students for technical roles in the industry.  
-The learning is project-based, with weekly challenges and presentations to apply new skills in real time.
+The course focuses on front-end and full stack development.  
+We started with HTML and CSS and are now getting into JavaScript.  
+There are live sessions, group work, and weekly projects that make it feel hands-on and practical.
 
 ---
 
 ## My Focus
 
-I joined the program to strengthen my front-end development skills and connect them to my long-term goal of working in cloud and AI security.  
-So far, I’ve been building a base in:
-- Writing clean HTML and CSS  
-- Using Git and GitHub to manage code  
-- Learning JavaScript for logic and interactivity  
-- Presenting and explaining technical work clearly  
+I joined the diploma to get better at development and connect it with my long-term goal of working in cloud and AI security.  
+So far I’ve been focusing on:
+- Writing clean and readable HTML and CSS  
+- Getting faster at using Git and GitHub  
+- Understanding how JavaScript logic works  
+- Learning how to explain projects clearly during presentations  
 
 ---
 
 ## Weekly Progress
 
-### [Week 1 – HTML and CSS Foundations](./week1/README.md)
-- Learned how HTML gives structure and CSS controls presentation  
-- Practiced Flexbox for layout and responsive design  
-- Created the Facebook Pay mock site and personal project layouts  
-- Won the class Kahoot and finished the week feeling more confident with web basics  
+### [Week 1 – HTML and CSS Basics](./week1/README.md)
+- Learned how HTML gives structure and CSS controls style  
+- Practiced Flexbox and built the Facebook Pay mock site  
+- Completed layout challenges and improved my GitHub workflow  
+- Ended the week with a Kahoot win  
 
-### [Week 2 – JavaScript Fundamentals](./week2/README.md)
-- Learned about data types, strings, numbers, and booleans  
-- Practiced logical thinking and tested JavaScript code in the console  
-- Presented the Mission 1 ransomware-style page built with HTML and CSS  
-- Won another Kahoot and improved my workflow in VS Code and GitHub  
+### [Week 2 – JavaScript and Logic](./week2/README.md)
+- Learned about variables, strings, numbers, and booleans  
+- Compared JavaScript logic to Python and tested code in the console  
+- Presented my Mission 1 ransomware-themed site to the class  
+- Won another Kahoot and felt more confident with JavaScript  
 
 ---
 
 ## Project Highlights
 
 **Mission 1 – Ransomware Simulation Page**  
-A creative HTML and CSS project designed with a cybersecurity theme.  
-Used animation, color, and layout to create a tense "system error" look and feel.  
-[View Project](https://github.com/lolipop316/ransomware-simulation-ui)
+A creative HTML and CSS project built with a cybersecurity theme.  
+I used animations, red and black colors, and layout effects to make it look like a fake ransomware warning.  
+[View the live site](https://lolipop316.github.io/diploma-dev/week2/day4-presentation-mission1/index.html)
 
 <p align="center">
   <img src="./week2/ransomware-site.png" width="420" alt="Ransomware simulation project screenshot">
@@ -59,16 +60,17 @@ Used animation, color, and layout to create a tense "system error" look and feel
 
 ---
 
-## Next Steps
+## What’s Next
 
-- Learn functions, loops, and DOM interaction in JavaScript  
-- Improve responsive layouts with media queries  
-- Start building interactive front-end projects  
-- Keep documenting progress each week in GitHub  
+Next up:
+- JavaScript loops, functions, and DOM work  
+- More responsive layouts  
+- Team projects and collaboration  
+- Keeping GitHub tidy and updated every week  
 
 ---
 
-## Tools Used
+## Tools I Use
 
 - Fedora Linux (i3)
 - Visual Studio Code  
@@ -78,8 +80,9 @@ Used animation, color, and layout to create a tense "system error" look and feel
 
 ---
 
-## Reflection Summary
+## Reflection
 
-The first two weeks have built a strong foundation in both coding and workflow habits.  
-I’ve learned to plan, test, and reflect on my work while staying consistent with commits and documentation.  
-Each week is building more confidence to explain my projects and think like a developer.
+The first two weeks went better than I expected.  
+HTML and CSS made more sense after a few projects, especially Flexbox.  
+JavaScript has been interesting and I’m getting used to problem solving with code.  
+Each week feels like progress and I’m starting to enjoy the challenge.
