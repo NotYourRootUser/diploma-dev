@@ -38,6 +38,8 @@ It felt good to mix creativity with cybersecurity and stand out from the usual f
 
 Click [HERE](https://lolipop316.github.io/ransomware-simulation-ui/) for free dabloons 😍
 
+<img src="./scam.png" width="450">
+
 
 ---
 
