@@ -44,7 +44,7 @@ So far I’ve been focusing on:
 ## Project Highlights
 
 **Mission 1 - Ransomware Simulation Page**  
-A creative HTML and CSS project built with a cybersecurity theme.  
+An HTML and CSS project built with a cybersecurity theme.  
 I used animations, red and black colors, and layout effects to make it look like a fake ransomware warning.  
 [View the live site](https://lolipop316.github.io/ransomware-simulation-ui/)
 
@@ -62,7 +62,7 @@ I used animations, red and black colors, and layout effects to make it look like
 
 ## What’s Next
 
-Next up:
+Next up I plan on adding:
 - JavaScript loops, functions, and DOM work  
 - More responsive layouts  
 - Team projects and collaboration  
@@ -80,7 +80,7 @@ Next up:
 
 ---
 
-## Reflection
+## Quick reflection
 
 The first two weeks went better than I expected.  
 HTML and CSS made more sense after a few projects, especially Flexbox.  
