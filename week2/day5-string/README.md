@@ -5,7 +5,7 @@
 Three ways to create strings:
 Single quotes ' '
 Double quotes " "
-Backticks ` ` (template literals)
+Backticks `  ` (template literals)
 
 Template literals allow variable embedding and multi-line text
 Example: `Hello, ${name}`
