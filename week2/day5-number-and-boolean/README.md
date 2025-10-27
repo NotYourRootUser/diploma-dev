@@ -1,69 +1,67 @@
-JavaScript Notes – Day 5 (Strings, Booleans, Comparison, and Basic Operations)
+# JavaScript Notes: Numbers and Booleans
 
-1. Type Conversion and Coercion
+## Type Conversion and Coercion
 
-- `Number()`, `parseInt()`, and unary `+` can convert strings to numbers.
-- `Number("42")` → 42 (number)
-- `parseInt("42")` → 42 (number)
-- Unary plus (`+"42"`) is shorthand for `Number("42")`.
-- Type coercion happens automatically in some operations (like `"5" + 5` → `"55"`).
+Number(), parseInt(), and unary plus (+) can convert strings to numbers.
+Number("42") → 42 (number)
+parseInt("42") → 42 (number)
++"42" → 42 (number)
 
-2. Boolean Conversion and Falsy Values
+Type coercion happens automatically in some operations.
+"5" + 5 → "55"
+"5" - 5 → 0
 
-- `Boolean()` converts any value into `true` or `false`.
-- Falsy values: false, 0, "", null, undefined, NaN.
-- Truthy values: everything else (including "0", "false", [], {}, etc.).
-- Example: `Boolean(0)` → false, `Boolean("0")` → true.
+## Boolean Conversion
 
-3. Comparison Operators
+Boolean() converts any value into true or false.
 
-- `==` compares values after coercion (loose equality).
-- `===` compares both value and type (strict equality).
-- `!=` means “not equal”, `!==` means “not strictly equal”.
-- Example: `10 == "10"` → true, `10 === "10"` → false.
+Falsy values:
+false
+0
+""
+null
+undefined
+NaN
 
-4. The NOT Operator (!)
+Truthy values:
+All other values including:
+"0"
+"false"
+[]
+{}
 
-- Negates the boolean value of what follows it.
-- `!true` → false, `!false` → true.
-- Works with coercion too: `!"Hello"` → false, because "Hello" is truthy.
+## Comparison Operators
 
-5. Primitive Data Types
+== compares values with type coercion
+=== compares values and types
+!= means not equal
+!== means not strictly equal
 
-- JavaScript has 7 primitive types: Number, String, Boolean, Undefined, Null, Symbol, and BigInt.
-- Example: `let age = 25; let name = "Reuben"; let happy = true;`
+Examples:
+10 == "10" → true
+10 === "10" → false
 
-6. Strings and Quotes
+## The NOT Operator (!)
 
-- Three ways to define strings: single (' '), double (" "), and backticks (` `).
-- Backticks (template literals) allow multi-line strings and variable embedding with `${}`.
-- Example: `` `Hello, ${name}` `` outputs: Hello, Reuben.
+Negates the boolean value of what follows it.
+!true → false
+!false → true
+!"Hello" → false because "Hello" is truthy
 
-7. Escape Characters
+## Primitive Data Types Reference
 
-- `
-` for new line, `	` for tab, `\` for backslash.
-- Example: `"Name:	John"` → adds a tab space.
+JavaScript primitive types:
+Number
+String
+Boolean
+Undefined
+Null
+Symbol
+BigInt
 
-8. String Concatenation and Template Literals
+## Exercises Completed
 
-- Before ES6, strings were joined with `+` (e.g., `'Hello ' + name`).
-- After ES6, template literals simplified concatenation: `` `Hello ${name}` ``.
-- `" "` (a space in quotes) is needed when using `+` to separate words.
-- Example: `'Hello ' + name + '!'` → “Hello Reuben!”
-
-9. String Length and Indexing
-
-- `.length` gives number of characters in a string.
-- Indexing starts at 0.
-- `myMessage[0]` gives the first character.
-- `myMessage[myMessage.length - 1]` gives the last character.
-- `.at(-1)` also returns the last character.
-
-10. Exercises Covered
-
-- **Exercise 3**: Created and concatenated four strings using template literals, then printed total length.
-- **Exercise 4**:
-  - Calculated Buddy’s BMI: `weight / (height * height)`.
-  - Calculated book purchase cost using variables and template literals.
-  - Example Output: “You have 5 books, total price is $50.”
+Created variables using numbers and booleans.
+Ran basic arithmetic operations.
+Practiced strict vs loose equality.
+Converted user input to numbers for calculations.
