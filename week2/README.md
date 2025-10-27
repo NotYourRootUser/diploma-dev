@@ -38,7 +38,7 @@ It felt good to mix creativity with cybersecurity and stand out from the usual f
 
 Click [Here](https://github.com/lolipop316/ransomware-simulation-ui) for the project repo
 
-<img src="./ransomware-site.png" width="450">
+<img src="./ransomware-site.png" width="600">
 
 
 ---
