@@ -1,6 +1,6 @@
 # JavaScript Fundamentals
 
-This document summarizes key JavaScript concepts covered so far including data types, conversions, truthy and falsey values, and conditionals. It also includes exercises with initial and improved solutions.
+This summarizes current JavaScript concepts covered today including data types, conversions, truthy and falsey values, equality, and conditionals.
 
 ## Primitive Data Types
 1. string
@@ -22,22 +22,33 @@ typeof 123n        // "bigint"
 typeof Symbol()    // "symbol"
 ```
 
-## String to Number Conversions
+---
+
+# Type Conversion
+
+## String to Number
 Number  
 parseInt  
 parseFloat  
-Unary plus  
+Unary plus
 
-Examples:
 ```js
 Number("10")      // 10
 parseInt("10px")  // 10
-parseFloat("10.5") // 10.5
 Number("10px")    // NaN
 Number("")        // 0
 ```
 
-## Truthy and Falsey Values
+## Implicit Coercion
+```js
+"10" + 5   // "105" (string + forces concatenation)
+"10" - 5   // 5 (forces number)
+true + 1   // 2
+```
+
+---
+
+# Truthy and Falsey
 
 Falsey values:
 false  
@@ -53,6 +64,76 @@ Everything else is truthy
 
 ---
 
+# Statements vs Expressions
+Statement = action  
+Expression = produces a value
+
+```js
+let x = 5        // statement with expression
+3 + 4            // expression → 7
+console.log(x)   // statement (side effect)
+```
+
+---
+
+# Increment Operators
+
+```js
+let a = 5;
+
+console.log(a++) // logs 5 then becomes 6 (postfix returns old value)
+console.log(++a) // becomes 7 then logs 7 (prefix returns new value)
+```
+
+---
+
+# Logical Operators
+
+## AND &&
+Both must be true  
+Short-circuits on the first false  
+```js
+false && "hello"  // false
+true && "hi"      // "hi"
+```
+
+## OR ||
+At least one must be true  
+Short-circuits on the first true  
+```js
+true || "world"   // true
+0 || "ok"         // "ok"
+```
+
+## NOT !
+Flips boolean value  
+```js
+!true   // false
+```
+
+---
+
+# Strict vs Loose Equality
+
+Strict:
+```js
+=== and !==
+1 === "1" // false
+```
+
+Loose:
+```js
+== and !=
+1 == "1" // true
+0 == false // true
+"" == false // true
+null == undefined // true
+```
+
+Note: Loose equality can behave unexpectedly
+
+---
+
 # Conditional Statements
 
 ```js
@@ -65,37 +146,17 @@ if (condition) {
 }
 ```
 
-Example:
+Parentheses control priority
 ```js
-let x = 5;
-if (x > 5) {
-  console.log("x is greater than 5");
-} else if (x < 5) {
-  console.log("x is less than 5");
-} else {
-  console.log("x is equal to 5");
-}
-```
-
----
-
-# Strict Equality
-```js
-===
-!==
-```
-
-Examples:
-```js
-1 === "1" // false
-1 == "1"  // true
+if (x == 4 && (!(y == 1) || z == 0)) {
 ```
 
 ---
 
 # Ternary Operator
+
 ```js
-condition ? resultIfTrue : resultIfFalse
+condition ? trueCase : falseCase
 ```
 
 Example:
@@ -105,39 +166,9 @@ word[0] === "a" ? console.log(true) : console.log(false);
 
 ---
 
-# Logical Operators
-
-## AND `&&`
-Both must be true
-
-## OR `||`
-At least one must be true
-
-## NOT `!`
-Flips true to false or false to true
-
----
-
-## Parentheses Priority
-
-```js
-let x = 4;
-let y = 2;
-let z = 0;
-
-if (x == 4 && (!(y == 1) || z == 0)) {
-  console.log("It is true");
-} else {
-  console.log("It is false");
-}
-```
-
----
-
 # Switch Statements
 
-Switch checks exact values
-
+Exact match checks
 ```js
 switch (value) {
   case option:
@@ -151,40 +182,22 @@ switch (value) {
 Example:
 ```js
 let fruit = "banana";
-
 switch (fruit) {
-  case "orange":
-    console.log("the fruit is an orange");
-    break;
-  case "strawberry":
-    console.log("the fruit is a strawberry");
-    break;
-  case "banana":
-    console.log("the fruit is a banana");
-    break;
-  default:
-    console.log("fruit not found");
+  case "orange": console.log("orange"); break;
+  case "banana": console.log("banana"); break;
+  default: console.log("fruit not found");
 }
 ```
 
 ---
 
-# Exercises
+# Exercises (Covered)
 
-## Exercise 1
-Negative Zero or Positive check
-
-## Exercise 2
-Starts with a check
-
-## Exercise 3
-Word length check > 5
-
-## Exercise 4
-Discount eligibility check
-
-## Exercise 5
-Switch grade homework
+1. Negative Zero or Positive check
+2. Word starts with letter check
+3. Word length check > 5
+4. Discount eligibility check
+5. Switch grade homework
 ```js
 let score = 69;
 switch (true) {
@@ -199,10 +212,11 @@ switch (true) {
 ---
 
 # Key Takeaways
-- && requires both true  
-- || requires one true  
+- && needs both true  
+- || needs one true  
 - ! flips values  
-- Parentheses run first  
+- Short-circuiting affects returned value  
+- Parentheses run first in logic  
 - Switch is a specific if else if  
-- Break prevents fall through  
-- Ternary is for short conditions  
+- Break stops fall-through  
+- === avoids weird coercion  
