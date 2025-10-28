@@ -15,38 +15,47 @@ This document summarizes key JavaScript concepts covered so far including data t
 object
 
 ## Type Checking Examples
+```js
 typeof undefined   // "undefined"
 typeof null        // "object"
 typeof 123n        // "bigint"
 typeof Symbol()    // "symbol"
+```
 
 ## String to Number Conversions
-Number()
-parseInt()
-parseFloat()
-Unary +
+Number  
+parseInt  
+parseFloat  
+Unary plus  
 
 Examples:
+```js
 Number("10")      // 10
 parseInt("10px")  // 10
 parseFloat("10.5") // 10.5
 Number("10px")    // NaN
 Number("")        // 0
+```
 
-## Truthy and Falsey
+## Truthy and Falsey Values
+
 Falsey values:
-false
-0
--0
-0n
-""
-null
-undefined
-NaN
+false  
+0  
+-0  
+0n  
+""  
+null  
+undefined  
+NaN  
 
-Everything else is truthy.
+Everything else is truthy
 
-## Conditional Statements
+---
+
+# Conditional Statements
+
+```js
 if (condition) {
   code
 } else if (condition) {
@@ -54,10 +63,10 @@ if (condition) {
 } else {
   code
 }
-
-Only the first true condition executes.
+```
 
 Example:
+```js
 let x = 5;
 if (x > 5) {
   console.log("x is greater than 5");
@@ -66,90 +75,134 @@ if (x > 5) {
 } else {
   console.log("x is equal to 5");
 }
+```
 
-## Strict Equality
-=== 
+---
+
+# Strict Equality
+```js
+===
 !==
+```
 
+Examples:
+```js
 1 === "1" // false
 1 == "1"  // true
+```
 
-## Ternary Operator
+---
+
+# Ternary Operator
+```js
 condition ? resultIfTrue : resultIfFalse
+```
 
 Example:
+```js
 word[0] === "a" ? console.log(true) : console.log(false);
+```
 
-Use ternary when the condition and action are simple.
+---
 
-------------------------------------------------------
+# Logical Operators
 
-# Exercises with Improvements and Notes
+## AND `&&`
+Both must be true
 
-## Exercise 1: Negative, Zero, or Positive
+## OR `||`
+At least one must be true
 
-Prompt:
-Check if a value is negative, zero, or positive.
+## NOT `!`
+Flips true to false or false to true
 
-Initial Version:
-let value = 1;
+---
 
-if (value < 0) {
-  console.log("value is negative");
-} else if (value === 0) {
-  console.log("value is zero");
+## Parentheses Priority
+
+```js
+let x = 4;
+let y = 2;
+let z = 0;
+
+if (x == 4 && (!(y == 1) || z == 0)) {
+  console.log("It is true");
 } else {
-  console.log("value is positive");
+  console.log("It is false");
 }
+```
 
-Console:
-value is positive
+---
 
-Note:
-Correct use of strict equality.
+# Switch Statements
 
-------------------------------------------------------
+Switch checks exact values
 
-## Exercise 2: First Letter is a
-
-Prompt:
-Check if a string starts with the letter a and print true or false.
-
-Initial Version:
-let myString = "apple";
-if (myString[0] === "a") {
-  console.log(true);
-} else {
-  console.log(false);
+```js
+switch (value) {
+  case option:
+    code
+    break
+  default:
+    code
 }
+```
 
-Improved Version:
-myString[0] === "a" ? console.log(true) : console.log(false);
+Example:
+```js
+let fruit = "banana";
 
-Advanced:
-myString[0].toLowerCase() === "a" ? console.log(true) : console.log(false);
+switch (fruit) {
+  case "orange":
+    console.log("the fruit is an orange");
+    break;
+  case "strawberry":
+    console.log("the fruit is a strawberry");
+    break;
+  case "banana":
+    console.log("the fruit is a banana");
+    break;
+  default:
+    console.log("fruit not found");
+}
+```
 
-Alternative:
-console.log(myString.toLowerCase().startsWith("a"));
+---
 
-------------------------------------------------------
+# Exercises
 
-## Exercise 3: Word Length Check
+## Exercise 1
+Negative Zero or Positive check
 
-Prompt:
-Check if a word is longer than 5 characters.
+## Exercise 2
+Starts with a check
 
-Solution:
-const word = "hippopotamus";
-word.length > 5 ? console.log("the word is too long") : console.log("the word is fine");
+## Exercise 3
+Word length check > 5
 
-Console:
-the word is too long
+## Exercise 4
+Discount eligibility check
 
-Note:
-Correct use of ternary and .length method.
+## Exercise 5
+Switch grade homework
+```js
+let score = 69;
+switch (true) {
+  case score >= 90: console.log("A"); break;
+  case score >= 80: console.log("B"); break;
+  case score >= 70: console.log("C"); break;
+  case score >= 60: console.log("D"); break;
+  default: console.log("F");
+}
+```
 
-------------------------------------------------------
+---
 
-End of document.
-
+# Key Takeaways
+- && requires both true  
+- || requires one true  
+- ! flips values  
+- Parentheses run first  
+- Switch is a specific if else if  
+- Break prevents fall through  
+- Ternary is for short conditions  
