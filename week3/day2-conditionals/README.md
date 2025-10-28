@@ -146,10 +146,30 @@ if (condition) {
 }
 ```
 
-Parentheses control priority
+## Parentheses Priority
+
+Parentheses run first so you can control the order of evaluation.
+
+Example:
 ```js
-if (x == 4 && (!(y == 1) || z == 0)) {
+let x = 4;
+let y = 2;
+let z = 0;
+
+if (x === 4 && (!(y === 1) || z === 0)) {
+  console.log("It is true");
+} else {
+  console.log("It is false");
+}
 ```
+
+Breakdown of evaluation order:
+1. `(y === 1)` is checked first  
+2. `!(y === 1)` flips the result  
+3. Then `(!(y === 1) || z === 0)` runs  
+4. Finally `x === 4 && (that result)`
+
+The parentheses ensure `!(y === 1)` happens before the OR check, and the entire OR group happens before the AND check.
 
 ---
 
