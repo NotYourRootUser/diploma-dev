@@ -27,19 +27,19 @@ So far I’ve been focusing on:
 
 ## Weekly Progress
 
-### [Week 1 - HTML and CSS Basics](./week1/README.md)
+### [Week 1 - HTML and CSS Basics](./week1/)
 - Learned how HTML gives structure and CSS controls style  
 - Practiced Flexbox and built the Facebook Pay mock site  
 - Completed layout challenges and improved my GitHub workflow  
 - Ended the week with a Kahoot win  
 
-### [Week 2 - JavaScript and Logic](./week2/README.md)
+### [Week 2 - JavaScript and Logic](./week2/)
 - Learned about variables, strings, numbers, and booleans  
 - Compared JavaScript logic to Python and tested code in the console  
 - Presented my Mission 1 ransomware-themed site to the class  
 - Won another Kahoot and felt more confident with JavaScript
 
-### [Week 3 - Conditionals, Loops, and Functions](./week3/README.md)
+### [Week 3 - Conditionals, Loops, and Functions](./week3/)
 - Learned how conditionals (`if`, `else if`, `else`, and ternary) control logic flow  
 - Practiced writing nested conditions and using operators to test multiple cases  
 - Explored `for` and `while` loops to repeat actions and work with arrays  
