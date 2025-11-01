@@ -37,7 +37,15 @@ So far I’ve been focusing on:
 - Learned about variables, strings, numbers, and booleans  
 - Compared JavaScript logic to Python and tested code in the console  
 - Presented my Mission 1 ransomware-themed site to the class  
-- Won another Kahoot and felt more confident with JavaScript  
+- Won another Kahoot and felt more confident with JavaScript
+
+### [Week 3 - Conditionals, Loops, and Functions](./week3/README.md)
+- Learned how conditionals (`if`, `else if`, `else`, and ternary) control logic flow  
+- Practiced writing nested conditions and using operators to test multiple cases  
+- Explored `for` and `while` loops to repeat actions and work with arrays  
+- Started combining loops with arrays and objects for practical tasks  
+- Built simple functions with parameters, return values, and default arguments  
+- Felt a big jump in confidence writing and debugging JavaScript logic  
 
 ---
 
@@ -72,7 +80,6 @@ Next up I plan on adding:
 
 ## Tools I Use
 
-- Fedora Linux (i3)
 - Visual Studio Code  
 - Git and GitHub  
 - Firefox Developer Edition  
