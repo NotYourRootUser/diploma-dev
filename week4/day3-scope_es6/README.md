@@ -1,4 +1,4 @@
-# JavaScript Notes (Session Summary)
+# JavaScript Notes 
 
 ## Variable Scope
 Global variables can be accessed and modified from anywhere in the code which can cause bugs and make debugging harder. Local variables declared with let or const are only visible in their block or function.
