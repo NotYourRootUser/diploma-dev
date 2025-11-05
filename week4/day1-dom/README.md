@@ -72,7 +72,7 @@ function changeMultiColour() {
   }
 }
 
-J# JavaScript DOM and Events Notes (Carried On)
+# JavaScript DOM and Events Notes (Carried On)
 
 ## 1. getElementById()
 - Used to select an element by its unique ID from HTML.
