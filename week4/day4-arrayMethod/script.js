@@ -72,3 +72,10 @@ const orderedIcecreams = icecreamsMap.map(function (icecream, index) {
 });
 
 console.log(orderedIcecreams);
+
+let original = [[10], [20]];
+let copy = [...original];
+copy[0][0] = 999;
+
+console.log(original);
+console.log(copy);
