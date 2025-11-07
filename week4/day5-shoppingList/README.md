@@ -187,7 +187,7 @@ function deleteItem(index) {
 - innerHTML += — adds HTML dynamically  
 - DOM selection — getElementById()
 
-by end of session you I a working shopping list app that:
+By end of the session I had a working shopping list app that:
 - adds items with quantity  
 - displays them dynamically  
 - deletes them with a ❌ icon  
