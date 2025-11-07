@@ -47,6 +47,15 @@ So far I’ve been focusing on:
 - Built simple functions with parameters, return values, and default arguments  
 - Felt a big jump in confidence writing and debugging JavaScript logic  
 
+### [Week 4 - DOM Manipulation & Project Building](./week4)
+
+- Learned how JavaScript interacts with web pages through the Document Object Model (DOM).
+- Practiced selecting elements, changing content, and listening for user events like clicks and form submissions.
+- Explored array methods (map, filter, reduce) to manage dynamic lists and update the UI efficiently.
+- Built a Shopping List Project that lets users add, remove, and display items in real time.
+- Started connecting logic to design — turning code into visible interaction.
+- Ended the week feeling more confident turning small ideas into working features.
+  
 ---
 
 ## Project Highlights
