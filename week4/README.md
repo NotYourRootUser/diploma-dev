@@ -57,4 +57,4 @@ This week built more than skill; it built rhythm and resilience.
 
 **Summary:**  
 Week 4 was about regaining rhythm and translating JavaScript logic into real-time behavior.  
-The code wasn’t always smooth — but every challenge reinforced a stronger foundation for what’s next.
+The code wasn’t always smooth, but every challenge reinforced a stronger foundation for what’s next.
