@@ -1,6 +1,6 @@
 # javascript date and array notes
 
-shopping basket feature  
+## shopping basket feature  
 form listens for "submit"  
 preventdefault stops reload  
 input split by comma using .split(",")  
@@ -14,13 +14,13 @@ const missingItems = shoppingItems.filter(item => !basket.includes(item));
 display results  
 if (missingItems.length === 0) { missingItemsDisplayEl.innerHTML = "all items are in your basket!"; } else { missingItemsDisplayEl.innerHTML = `<p>items still to get:</p> ${missingItems.join(", ")}`; }
 
-array methods  
+## array methods  
 .map creates a new array  
 .filter keeps elements that pass a condition  
 (item) in filter is each element being checked  
 !basket.includes(item) means “not in basket”
 
-date object  
+## date object  
 new date() creates a date object  
 new Date(year, monthIndex, day, hour, minute, second)  
 new Date("YYYY-MM-DD") creates from string  
@@ -37,7 +37,7 @@ difference / 1000 / 60 // minutes
 difference / 1000 / 60 / 60 // hours  
 difference / 1000 / 60 / 60 / 24 // days  
 
-date methods  
+## date methods  
 const myDate = new Date();  
 myDate.getFullYear(); // 4 digit year  
 myDate.getMonth(); // 0-11  
@@ -49,7 +49,7 @@ myDate.getSeconds(); // 0-59
 myDate.toISOString(); // utc  
 myDate.getTime(); // ms since 1970  
 
-intl.datetimeformat  
+## intl.datetimeformat  
 const myDate = new Date();  
 const formatted = new Intl.DateTimeFormat("en-NZ").format(myDate);  
 custom locale and options  
@@ -59,7 +59,7 @@ options = what to show
 const options = { hour: "numeric", minute: "numeric", day: "numeric", month: "numeric", year: "numeric", weekday: "long", hour12: true, timeZoneName: "short", timeZone: "America/New_York" };  
 const formatted2 = new Intl.DateTimeFormat("en-US", options).format(myDate);  
 
-birthdate example  
+## birthdate example  
 const birthDate = new Date("1970-10-23");  
 const options = { day: "numeric", month: "long" };  
 const birthday = new Intl.DateTimeFormat("en-NZ", options).format(birthDate);  
