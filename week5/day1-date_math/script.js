@@ -63,3 +63,50 @@ const options = {
 const birthday = new Intl.DateTimeFormat("en-NZ", {month: 'long', day: "numeric"}).format(birthDate);
 console.log(`My birthday is on the ${birthday}`);
 
+// methods in the math object 
+// find the largest and smallest numbers
+Math.max(5, 3, 7); // 7
+Math.min(5, 3, 7); // 3
+
+// absolute value (always positive)
+Math.abs(-22); // 22 returns the absolute value of x. Always positive.
+
+// rounding methods
+Math.floor(5.05); // always rounds down. returns 5
+Math.floor(5.95); // always rounds down. returns 5
+Math.ceil(5.01);  // always rounds up. returns 6
+Math.round(5.95); // rounds up. returns 6
+Math.round(5.05); // rounds down. returns 5
+Math.round(5.5);  // rounds up. returns 6
+
+// fixed decimal places
+(1.3579).toFixed(2); // fixes the number to 2 decimal places. returns "1.36"
+// toFixed() converts the number to a string and rounds it to the nearest decimal place
+
+// Power method
+Math.pow(3, 2); // base, exponent. Returns 9
+
+//exercise 1
+let favNums = [4, 20, 14];
+
+// smallest and largest using Math.min / Math.max
+let smallest = Math.min(...favNums);
+let largest = Math.max(...favNums);
+
+// square of smallest number
+let squareOfSmallest = smallest ** 2;
+
+// all outputs logged
+console.log("smallest:", smallest);
+console.log("largest:", largest);
+console.log("square of smallest:", squareOfSmallest);
+
+// random number between 0 - 1 and rounded down 
+const randomNumber = Math.floor(Math.random() * 10);
+console.log(randomNumber);
+
+// exercise 2 
+let listOfFruiits = ['apple', 'banana', 'grape', 'pear'];
+let randomNum = Math.floor(Math.random() * listOfFruiits.length);
+let randomFruit = listOfFruiits[randomNum];
+console.log(randomFruit);
