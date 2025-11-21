@@ -4,15 +4,23 @@ function ColourChanger() {
   const [colour, setColour] = useState("red"); // initial background colour
 
   function changeColour() {
-  switch (colour) {
-    case "red": setColour("blue"); break;
-    case "blue": setColour("green"); break;
-    case "green": setColour("orange"); break;
-    case "orange": setColour("yellow"); break;
-    default: setColour("red");
+    switch (colour) {
+      case "red":
+        setColour("blue");
+        break;
+      case "blue":
+        setColour("green");
+        break;
+      case "green":
+        setColour("orange");
+        break;
+      case "orange":
+        setColour("yellow");
+        break;
+      default:
+        setColour("red");
+    }
   }
-}
-
 
   return (
     <div>
