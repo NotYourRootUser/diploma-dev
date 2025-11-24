@@ -1,0 +1,21 @@
+@value primary: #ff0000;
+@value secondary: #00ff00;
+
+.button {
+  color: primary;
+  background-color: pink;
+  padding: 20px;
+}
+
+.h1 {
+    color: pink;
+}
+
+.link{
+  background-color: yellow;
+}
+
+:global(.global-class){
+  color: secondary;
+}
+
