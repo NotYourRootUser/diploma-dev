@@ -1,0 +1,7 @@
+.input {
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+  font-size: 2rem;
+  border: 6px solid pink;
+}
