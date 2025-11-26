@@ -10,7 +10,7 @@ export default function UserProfile() {
       <h1>User Profile</h1>
 
       <p>
-        We can get the parameter ID from the URL: <strong>{id}</strong>
+        We can get the paramete ID from the URL: <strong>{id}</strong>
       </p>
 
       <p>
