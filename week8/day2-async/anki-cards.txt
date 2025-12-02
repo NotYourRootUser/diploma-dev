@@ -1,0 +1,13 @@
+What does synchronous code mean in JavaScript?	Synchronous code executes one line at a time; nothing else runs until the current line finishes.
+Why does synchronous code block?	Because JS is single-threaded and the call stack can only process one task at a time.
+What is the main advantage of async code in a UI?	It keeps the interface responsive and prevents freezing during slow operations.
+What is a Promise?	An object that represents a future value (pending → fulfilled/rejected).
+What handles async tasks outside the JS thread?	The event loop + Web APIs (browser) or libuv (Node.js).
+What does async do to a function?	It makes the function return a Promise automatically.
+What does await do?	It pauses the async function until the Promise resolves, without blocking the rest of the program.
+Does await block the entire program?	No — it only pauses the async function it’s inside.
+What happens if a Promise rejects and you don’t handle it?	It causes an unhandled rejection, which can crash the app or throw errors.
+What does an async function return if you don’t use await?	It immediately returns a Promise (usually pending).
+Why is forgetting await dangerous?	You end up using a Promise instead of the resolved value, causing logic bugs.
+What does setTimeout simulate in a fakeFetch demo?	A slow network request or API delay.
+
