@@ -2,3 +2,4 @@ test
 test.txt
 .log
 .tmp
+.DS_store
