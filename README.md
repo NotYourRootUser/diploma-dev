@@ -100,7 +100,7 @@ Next up I plan on adding:
 
 The first three weeks have gone better than I expected.  
 HTML and CSS started to feel natural after a few layout projects, especially once Flexbox clicked.  
-JavaScript has been both challenging and rewarding — learning conditionals, loops, and functions made the logic side of coding more enjoyable.  
+JavaScript has been both challenging and rewarding learning conditionals, loops, and functions made the logic side of coding more enjoyable.  
 Even with the laptop issues during Week 3, I stayed consistent with the live classes and came out with a better understanding of how my system works.  
 Each week feels like measurable progress, and I’m starting to genuinely enjoy solving problems with code.
 
