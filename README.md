@@ -104,3 +104,12 @@ JavaScript has been both challenging and rewarding learning conditionals, loops,
 Even with the laptop issues during Week 3, I stayed consistent with the live classes and came out with a better understanding of how my system works.  
 Each week feels like measurable progress, and I’m starting to genuinely enjoy solving problems with code.
 
+### Weeks 4–8 Reflection
+Over the past few weeks I moved deeper into JavaScript and React. I built components, routed pages, worked with props/state, and debugged async fetch behaviour. The move to my nana’s house and laptop issues made things harder, but I kept up with classes and managed to build working features like dynamic search and project submission flows.
+
+I realised debugging is where I learn the most, especially seeing teacher vs assistant approaches. It mattered because instead of copying code, I’m starting to understand why things break and how they connect.
+
+I feel more confident reading error outputs and scaffolding components from scratch. React started to shift from “magic” to “data flow,” and JavaScript started to feel logical instead of intimidating.
+
+Next week I will push myself to build small components without copying examples, and ask more questions in live classes instead of waiting.
+
