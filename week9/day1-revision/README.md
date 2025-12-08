@@ -1,0 +1,3 @@
+# Backend Revision Summary
+
+Built a Node.js HTTP server using `http.createServer`, learned that `req` and `res` only exist inside the request handler scope, and moved routing logic inside the callback. Logged incoming URLs and methods to observe traffic flow. Implemented routing for multiple endpoints including `/`, `/api/greet`, `/about`, and `/api/user`. Returned different content types: plain text, HTML, and JSON. Used `writeHead` to set status codes and content types, and `JSON.stringify` to serialize objects for API responses. Added a 404 fallback route for unknown paths. This reinforced core backend concepts including scope, routing, content negotiation, and request handling.
