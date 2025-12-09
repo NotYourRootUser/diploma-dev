@@ -1,0 +1,16 @@
+{
+  "name": "day2-nodemailer",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Justin",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "nodemailer": "^7.0.11"
+  }
+}
